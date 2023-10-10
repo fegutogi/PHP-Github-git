@@ -1,12 +1,37 @@
 /* Nav bar */
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
 
 .comprar {
     color: yellowgreen;
 }
 
 /* La conferencia */
+.oradores {
+    margin-left: 50%;
+
+}
+
 .card {
     display: inline-flex;
 }
 
+.card-img-overlay {
+    top: unset;
+    left: 50%;
+}
+
+/* Lugar y fecha */
+.texto-lugar{
+    background: #666;
+    color: white;
+}
+
 /* Footer */
+
+.fondo-footer {
+    background: linear-gradient(to right, #1C3D4E, #1D5372);
+    color: white;
+    height: 200px;
+}

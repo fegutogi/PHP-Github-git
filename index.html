@@ -17,10 +17,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                <a class="nav-link active" aria-current="page" href="#conferencia">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#orador">Los oradores</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">El lugar y la fecha</a>
@@ -37,7 +37,7 @@
     </nav>
 
 
-    <div class="card text-bg-dark" id="conferencia">
+    <div class="card text-bg-dark oscuro" id="conferencia">
         <img src="./assets/img/ba1.jpg" class="card-img" alt="Conferencia en Buenos Aires, Argentina">
         <div class="card-img-overlay">
           <h5 class="card-title">Conf Bs As</h5>
@@ -87,6 +87,54 @@
         </div>
     </div>
 
+    <div class="grid gap-0 row-gap-3" id="lugar">
+      <div class="p-2 g-col-6">
+        <img src="/assets/img/honolulu.jpg" alt="Playa en bBuenos Aires Conf Bs As">
+      </div>
+      <div class="p-2 g-col-6 texto-lugar">
+        <h5>Bs As - Octubre</h5>
+        <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina,
+          en los Estados Unidos. Honolulu es la más sureña de entre las orincioales
+          ciudades estadounidenses. Aunque el nombre de Hono lulu se refiere al área
+          urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
+          Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad
+          (aproximadamente 600 km- de superficie)</p>
+      </div>
+
+      <div class="oradores">
+        <p>CONVIÉRTETE EN UN</p>
+        <h5>ORADOR</h5>
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Sobre qué quieres hablar?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button type="button" class="btn btn-success">ENVIAR</button>
+      </div>
+
+    <div class="footer fondo-footer">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Términos y condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudiantes</a>
+        </li>
+    </div>
 
     <script src="./assets/js/bootstrap.js"></script>
 </body>
